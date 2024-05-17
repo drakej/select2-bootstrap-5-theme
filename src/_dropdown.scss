@@ -75,15 +75,15 @@
 
                 // Highlighted Item
                 &.select2-results__option--highlighted {
-                    color: color-contrast($s2bs5-item-hover-bg);
-                    background-color: $s2bs5-item-hover-bg;
+                    color: $dropdown-link-hover-color;
+                    background-color: $dropdown-link-hover-bg;
                 }
 
                 // Selected Item
                 &.select2-results__option--selected,
                 &[aria-selected="true"]:not(.select2-results__option--highlighted) {
-                    color: color-contrast($s2bs5-item-active-bg);
-                    background-color: $s2bs5-item-active-bg;
+                    color: $dropdown-link-active-color;
+                    background-color: $dropdown-link-active-bg;
                 }
 
                 // Disabled Item
